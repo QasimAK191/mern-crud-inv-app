@@ -1,0 +1,166 @@
+
+
+.App {
+    text-align: left;
+    display: block;
+}
+
+.body-container {
+    width: 100%;
+    height: auto;
+}
+img:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+}
+button {
+    background-color: dimgray;
+    color: antiquewhite;
+    border-radius: 25%;
+    font-family: 'Courier New';
+}
+
+button:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.App-header {
+    background-image: linear-gradient( 140deg, pink 0%, indianred 50%, darkred 155%);
+    border: 1px solid;
+    border-radius:25px;
+    box-shadow:10px;
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    height: 50px;
+    color: white;
+    font-family: Bahnschrift
+}
+
+    .App-header:hover {
+        background-image: linear-gradient( 140deg, white 0%, white 50%, red 155%);
+        border: 1px solid;
+        border-radius: 25px;
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        height: 50px;
+        color: black;
+        font-family: Bahnschrift
+    }
+
+
+
+#sidebar-wrapper {
+    background-image: linear-gradient( 140deg, aquamarine 0%, grey 50%, mediumaquamarine 75%);
+    display: flex;
+    flex-direction: column;
+    width: 15%
+}
+
+
+#Sidebar {
+    background-image: linear-gradient( 140deg, white 0%, white 50%, indianred 155%);
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color: #051433;
+}
+
+.github {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New';
+    font-size: 80%;
+
+}
+
+#Sidebar-Menu {
+    background-image: linear-gradient( 140deg, mediumaquamarine 0%, grey 50%, mediumaquamarine 75%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color: white;
+    font-style: oblique;
+}
+
+a:hover {
+    color: darkred;
+    box-shadow: 0 0 5px red;
+    text-shadow: 0 0 5px green;
+    outline: 1px solid;
+    outline-color: rgba(0, 0, 0, .5);
+    outline-offset: 0px;
+}
+
+tr:hover {
+    color: darkred;
+    box-shadow: 0 0 5px blue;
+    text-shadow: 0 0 5px white
+}
+
+
+
+
+
+label{
+    padding-right:5%
+}
+input{
+    width: 110px;
+    padding-left:0.2%;
+    background-color: cornsilk;
+    font-family: 'Courier New';
+    border: 1px groove;
+}
+
+#productforms {
+
+}
+
+#spaceFiller {
+    height: 250px;
+}
+
+#prod-table {
+    font-style: oblique;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#shopping-table {
+    padding-top: 25px;
+    background-image: linear-gradient( 480deg, yellow 0%, orange 50%, yellow 175%);
+    font-family: 'MS Gothic'
+}
+
+
+@media screen and (max-width: 800px) {
+    
+
+    #Sidebar, .github {
+        display: compact;
+    }
+
+    #Sidebar-Menu, #sidebar-wrapper {
+        display: none;
+    }
+
+    
+}
