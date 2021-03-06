@@ -8,6 +8,8 @@
 .body-container {
     width: 100%;
     height: auto;
+    border-right: 1px solid;
+    border-color: indianred;
 }
 img:hover {
     color: #ffee10;
@@ -95,6 +97,8 @@ button:hover {
     font-size: 110%;
     color: white;
     font-style: oblique;
+    border-right: 1px solid;
+    border-color: indianred;
 }
 
 a:hover {
