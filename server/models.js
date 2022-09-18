@@ -36,5 +36,5 @@ var Orders = mongoose.model('Orders', OrderSchema)
 export default User;
 export default Transaction;
 export default _Products;
-export Orders;
+export default Orders;
 
